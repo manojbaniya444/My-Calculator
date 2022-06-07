@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+.box
+{
+    /* background: #bf0c0c; */
+
+    width: 390px;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.container {
+    text-align: center;
+    /* background-color: red; */
+    
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    /* background-color: rgb(68, 57, 57); */
+    background-color: rgb(246, 246, 246);
+}
+
+table {
+    margin: auto;
+    
+}
+
+.calculator {
+    /* border: 2px solid black; */
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    /* background: red; */
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    height: 340px;
+    /* background: #e10e0e; */
+    background: rgb(10, 10, 47);
+     box-shadow:  5px 5px 5px #000000;
+}
+
+button {
+    /* background: red; */
+    background: #01020b;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+    color: white;
+
+}
+
+#displayScreen {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    width: 230px;
+    height: 35px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0.5px 0.5px 1px rgb(145, 137, 137);
+}
+
+.newbtn{
+    background-color: rgb(196, 38, 38);
+    box-shadow: 0.5px 0.5px 1px rgb(118, 85, 85);  
+}
+.onoff
+{
+    background-color: white;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.onoff span{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(49, 48, 48);
+    display: block;
+    border-radius: 20px;
+    transition: background 0.5s, margin 0.5s;
+}
+
+.of 
+{
+    background: rgb(80, 63, 63);
+    cursor: pointer;
+}
+
+.of span{
+    background-color: black;
+    margin-left: 30px;
+}
